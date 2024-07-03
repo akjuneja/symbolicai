@@ -80,7 +80,8 @@ class SerpApiEngine(Engine):
                 "q": q,
                 "google_domain": "google.com",
                 "gl": "us",
-                "hl": "en"
+                "hl": "en",
+                "tbm": "nws"
             }
 
             # send to Google
